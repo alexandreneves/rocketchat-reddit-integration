@@ -9,5 +9,5 @@
     - **trigger words**: !reddit
     - **url**: https://reddit.com
     - **script enabled**: true
-    - **script**: *copy index.js content*
+    - **script**: copy *./dist/index.js* source
 3. save and enjoy

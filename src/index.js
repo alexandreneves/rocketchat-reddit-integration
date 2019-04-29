@@ -14,7 +14,7 @@ class Script {
             msg: {
                 error: { text: 'an error occurred, please try again' },
                 nsfw: {
-                    title: "You perv, that /r's NSFW!",
+                    title: 'Ya filthy animal!',
                     title_link: 'http://reddit.com/r/eyebleach',
                     text: 'Never gonna give you up! Never gonna let you down!',
                     image_url: 'http://media.giphy.com/media/olAik8MhYOB9K/giphy.gif',
