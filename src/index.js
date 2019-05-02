@@ -92,9 +92,15 @@ class Script {
                 attachment.collapsed = true;
 
                 try {
-                    attachment.image_url = item.data.preview.images[0].source.url;
+                    const images = item.data.preview.images[0];
+
+                    if (images.variants.gif) {
+                        attachment.image_url = images.variants.gif.source.url;
+                    } else {
+                        attachment.image_url = images.source.url;
+                    }
                 } catch (err) {
-                    // no image found
+                    // no images found
                 }
             }
 
